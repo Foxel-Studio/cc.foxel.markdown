@@ -1,0 +1,33 @@
+{
+  "foxpkg": "1.0",
+  "hostApiVersion": ">=1.0,<2.0",
+  "key": "cc.foxel.markdown",
+  "name": "markdown",
+  "version": "1.0.0",
+  "description": "用宿主的 react-markdown 查看 Markdown 文件。",
+  "i18n": {
+    "zh": {
+      "name": "markdown",
+      "description": "用宿主的 react-markdown 查看 Markdown 文件。"
+    },
+    "en": {
+      "name": "markdown",
+      "description": "Views Markdown files with the host react-markdown."
+    }
+  },
+  "author": "Foxel",
+  "website": "https://foxel.cc",
+  "github": "https://github.com/Foxel-Studio/cc.foxel.markdown",
+  "license": "MIT",
+  "frontend": {
+    "entry": "frontend/index.js",
+    "styles": ["frontend/player.css"],
+    "icon": "frontend/icon.svg",
+    "publicDir": "frontend",
+    "capabilities": ["react-markdown"],
+    "openApp": false,
+    "supportedExts": ["md", "markdown"],
+    "defaultBounds": { "width": 900, "height": 760 },
+    "useSystemWindow": true
+  }
+}
